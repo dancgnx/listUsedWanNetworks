@@ -9,7 +9,6 @@ cgx = cgxinit.go()
 # shortcut to jd function
 jd = cloudgenix.jd
 
-
 wannetworks={}
 # itirate through the list of sites
 for site in cgx.get.sites().cgx_content["items"]:
