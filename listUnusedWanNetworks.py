@@ -24,4 +24,5 @@ for wannetwork in cgx.get.wannetworks().cgx_content["items"]:
     # check if wannetwork is a key inside "wannetworks" dict
     if wannetwork["id"] not in wannetworks:
         print (wannetwork["name"])
+# uncomment bellow if you wish to delete the unused LAN network
 #        cgx.delete.wannetworks(wannetwork["id"])
