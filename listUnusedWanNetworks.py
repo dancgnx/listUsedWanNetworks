@@ -1,6 +1,4 @@
 import cgxinit
-import cloudgenix
-import json
 import sys
 
 # create CGX object and authenticate
